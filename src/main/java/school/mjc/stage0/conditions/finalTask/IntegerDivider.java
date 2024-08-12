@@ -4,7 +4,7 @@ public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
         int quotient = dividend % divider;
 
-        if (divider != 0) {
+        if (divider != 0 && dividend != 0) {
             if (quotient != 0) {
                 int product = quotient * divider;
                 if (product == dividend) {
