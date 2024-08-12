@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
-        int quotient = dividend % divider;
+        int quotient = dividend / divider;
 
         if (divider != 0 && dividend != 0) {
             if (quotient != 0) {
@@ -12,7 +12,7 @@ public class IntegerDivider {
                 } else if (quotient != dividend) {
                     System.out.println("cannot be divided completely");
                 }
-                }
+            }
             }else {
             System.out.println("division by zero");
         }

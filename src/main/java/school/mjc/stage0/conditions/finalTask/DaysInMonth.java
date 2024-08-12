@@ -31,6 +31,8 @@ public class DaysInMonth {
             } else {
                 System.out.println("invalid date");
             }
+        } else {
+            System.out.println("invalid date");
         }
     }
 }
